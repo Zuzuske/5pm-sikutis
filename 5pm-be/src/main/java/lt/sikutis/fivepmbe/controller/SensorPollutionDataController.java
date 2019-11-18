@@ -1,6 +1,6 @@
-package lt.sikutis.pm5be.controller;
+package lt.sikutis.fivepmbe.controller;
 
-import lt.sikutis.pm5be.model.SensorPollutionData;
+import lt.sikutis.fivepmbe.model.SensorPollutionData;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

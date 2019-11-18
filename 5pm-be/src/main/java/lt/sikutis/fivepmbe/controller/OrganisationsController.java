@@ -1,7 +1,7 @@
-package lt.sikutis.pm5be.controller;
+package lt.sikutis.fivepmbe.controller;
 
-import lt.sikutis.pm5be.model.Organizations;
-import lt.sikutis.pm5be.repository.OrganizationsRepository;
+import lt.sikutis.fivepmbe.model.Organizations;
+import lt.sikutis.fivepmbe.repository.OrganizationsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

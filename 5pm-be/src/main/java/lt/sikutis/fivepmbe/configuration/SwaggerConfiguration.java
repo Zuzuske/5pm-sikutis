@@ -1,4 +1,4 @@
-package lt.sikutis.pm5be.configuration;
+package lt.sikutis.fivepmbe.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

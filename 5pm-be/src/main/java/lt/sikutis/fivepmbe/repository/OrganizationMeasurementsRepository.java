@@ -1,6 +1,6 @@
-package lt.sikutis.pm5be.repository;
+package lt.sikutis.fivepmbe.repository;
 
-import lt.sikutis.pm5be.model.OrganizationMeasurements;
+import lt.sikutis.fivepmbe.model.OrganizationMeasurements;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

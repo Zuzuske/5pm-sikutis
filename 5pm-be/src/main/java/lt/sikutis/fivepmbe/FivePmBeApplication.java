@@ -1,13 +1,13 @@
-package lt.sikutis.pm5be;
+package lt.sikutis.fivepmbe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Pm5BeApplication {
+public class FivePmBeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Pm5BeApplication.class, args);
+        SpringApplication.run(FivePmBeApplication.class, args);
     }
 
 }

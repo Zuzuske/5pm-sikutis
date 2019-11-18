@@ -1,4 +1,4 @@
-package lt.sikutis.pm5be.model;
+package lt.sikutis.fivepmbe.model;
 
 public class SensorPollutionData {
     private String json;

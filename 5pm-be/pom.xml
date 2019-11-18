@@ -9,14 +9,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>lt.sikutis</groupId>
-    <artifactId>pm5-be</artifactId>
+    <artifactId>5pm-be</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pm5-be</name>
-    <description>Demo project for Spring Boot</description>
+    <name>5pm-be</name>
+    <description>backend</description>
 
     <properties>
         <java.version>1.8</java.version>
-        <start-class>lt.sikutis.pm5be.Pm5BeApplication</start-class>
+        <start-class>lt.sikutis.fivepmbe.FivePmBeApplication</start-class>
     </properties>
 
     <dependencies>
