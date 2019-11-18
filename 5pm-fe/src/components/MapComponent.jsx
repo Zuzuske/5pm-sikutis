@@ -24,11 +24,9 @@ export default class MapComponent extends React.Component {
     }
 
     render() {
-        const position = this.state.defaultPosition;
-
         return (
             <div className=".leaflet-container">
-                <Map center={position} zoom={this.state.zoom}>
+                <Map center={this.state.defaultPosition} zoom={this.state.zoom}>
                     <TileLayer
                         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

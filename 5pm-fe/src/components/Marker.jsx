@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { CircleMarker, Tooltip } from 'react-leaflet';
+import { Circle, Tooltip } from 'react-leaflet';
 
 class Marker extends Component {
     state = {
         position: [this.props.lat, this.props.lon],
+        name: this.props.name,
+        address: this.props.address,
         polutV1: this.props.polutV1,
         polutV2: this.props.polutV2,
         polutV3: this.props.polutV3,
@@ -16,22 +18,21 @@ class Marker extends Component {
     }
 
     calculateRadius() {
-        const radius = this.calculatePercentage() / 5 + 2;
+        const radius = this.calculatePercentage() + 2;
         return radius;
     }
 
     render() {
         return (
-            <CircleMarker center={this.state.position} radius={this.calculateRadius()} color="grey">
+            <Circle center={this.state.position} radius={this.calculateRadius()} color="grey">
                 <Tooltip direction="right" offset={[-8, -2]} opacity={1}>
-                    <span>{this.props.name}</span>
+                    <span>{this.state.name}</span>
                     <hr />
-                    <span>{this.props.address}</span>
-                    <br />
+                    <span>{this.state.address}</span>
                     <hr />
                     <span>{this.calculatePercentage()}% non green energy.</span>
                 </Tooltip>
-            </CircleMarker>
+            </Circle>
         );
     }
 }
