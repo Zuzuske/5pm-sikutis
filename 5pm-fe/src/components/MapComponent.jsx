@@ -11,7 +11,7 @@ export default class MapComponent extends React.Component {
     };
 
     componentDidMount() {
-        const url = 'http://localhost/organizations';
+        const url = '/organizations';
 
         axios
             .get(url)

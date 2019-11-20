@@ -18,7 +18,7 @@ class Marker extends Component {
     }
 
     calculateRadius() {
-        const radius = this.calculatePercentage() + 2;
+        const radius = this.calculatePercentage() + 5;
         return radius;
     }
 
